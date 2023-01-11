@@ -16,4 +16,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean verify sonar:sonar  mvn clean verify sonar:sonar -Dsonar.projectKey=sonarqube-jan-2023-b1 -Dsonar.host.url=http:/3.108.112.159:9000 -Dsonar.login=sqp_38476d8695a4b162543b11b36b19e8c7333a64ee
+      run: mvn clean verify sonar:sonar -Dsonar.projectKey=sonarqube-jan-2023-b1 -Dsonar.host.url=http:/3.108.112.159:9000 -Dsonar.login=sqp_38476d8695a4b162543b11b36b19e8c7333a64ee
